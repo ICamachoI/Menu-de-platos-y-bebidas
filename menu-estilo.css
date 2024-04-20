@@ -5,17 +5,19 @@
 h1 {
     text-align: center;
     margin-top: 0;
+    color: white;
 }
 
 body {
     background-color: red;
     height: 100vh;
-    width: 100vh; 
-    display: flex; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
 }
 
@@ -25,7 +27,7 @@ img {
 }
 
 .container {
-    background-color: white;
+    background-color: whitesmoke;
     width: 90%;
     height: 90%;
     padding: 20px;
