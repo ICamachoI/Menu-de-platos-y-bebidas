@@ -5,7 +5,6 @@
 h1 {
     text-align: center;
     margin-top: 0;
-    color: white;
 }
 
 body {
@@ -22,8 +21,8 @@ body {
 }
 
 img {
-    width: 300px;
-    height: 200px;
+    width: 275px;
+    height: 175px;
     border: 1px solid black;
 }
 
@@ -52,4 +51,16 @@ div {
     height: 100%;
     float: right;
     padding: 10px;
+}
+
+#titulo-menu {
+    color: white;
+}
+
+#titulo-platos {
+    color: black;
+}
+
+#titulo-bebidas {
+    color: black;
 }
