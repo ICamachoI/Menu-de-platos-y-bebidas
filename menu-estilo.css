@@ -26,6 +26,10 @@ img {
     height: auto;
 }
 
+div {
+    border-radius: 10px;
+}
+
 .container {
     background-color: whitesmoke;
     width: 90%;
