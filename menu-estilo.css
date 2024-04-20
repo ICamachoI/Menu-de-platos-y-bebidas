@@ -32,3 +32,19 @@ img {
     height: 90%;
     padding: 20px;
 }
+
+.platos {
+    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
+    width: 45%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.bebidas {
+    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
+    width: 45%;
+    height: 100%;
+    float: right;
+    padding: 10px;
+}
