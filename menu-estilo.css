@@ -7,9 +7,13 @@ h1 {
     margin-top: 0;
 }
 
+h2 {
+    text-align: center;
+}
+
 body {
-    background-color: red;
-    height: 100vh;
+    background-color: #9F8C76;
+    height: 100%;
     width: 100%; 
     display: flex;
     flex-direction: column; 
@@ -20,10 +24,33 @@ body {
     line-height: 1.5;
 }
 
-img {
+ul {
+    column-count: 3;
+    column-gap: 15px;
+    list-style-type: none;
+}
+
+.platos img {
     width: 275px;
     height: 175px;
+    border-radius: 5px;
     border: 1px solid black;
+}
+
+.bebidas img {
+    width: 275px;
+    height: 175px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.TextDiv {
+    width: 275px;
+    height: 175px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: auto;
+    padding: auto;
 }
 
 div {
@@ -33,7 +60,7 @@ div {
 .container {
     background-color: whitesmoke;
     width: 90%;
-    height: 90%;
+    height: auto;
     padding: 20px;
 }
 
@@ -46,6 +73,38 @@ div {
 }
 
 .bebidas {
+    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
+    width: 45%;
+    height: 100%;
+    float: right;
+    padding: 10px;
+}
+
+.PlatosImg {
+    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
+    width: 45%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.PlatosText {
+    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
+    width: 45%;
+    height: 100%;
+    float: right;
+    padding: 10px;
+}
+
+.BebidasImg {
+    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
+    width: 45%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.BebidasText {
     border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
     width: 45%;
     height: 100%;
