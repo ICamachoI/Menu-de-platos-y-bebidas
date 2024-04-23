@@ -48,7 +48,6 @@ ul {
     width: 275px;
     height: 175px;
     border-radius: 5px;
-    border: 1px solid black;
     margin: auto;
     padding: auto;
 }
@@ -65,7 +64,6 @@ div {
 }
 
 .platos {
-    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
     width: 45%;
     height: 100%;
     float: left;
@@ -73,7 +71,6 @@ div {
 }
 
 .bebidas {
-    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
     width: 45%;
     height: 100%;
     float: right;
@@ -81,7 +78,6 @@ div {
 }
 
 .PlatosImg {
-    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
     width: 45%;
     height: 100%;
     float: left;
@@ -89,7 +85,6 @@ div {
 }
 
 .PlatosText {
-    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
     width: 45%;
     height: 100%;
     float: right;
@@ -97,7 +92,6 @@ div {
 }
 
 .BebidasImg {
-    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
     width: 45%;
     height: 100%;
     float: left;
@@ -105,7 +99,6 @@ div {
 }
 
 .BebidasText {
-    border: 1px solid black; /*lineas para delimitar el borde de los div, eliminar una vez completado el proyecto*/
     width: 45%;
     height: 100%;
     float: right;
