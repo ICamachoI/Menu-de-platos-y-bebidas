@@ -30,11 +30,20 @@ ul {
     list-style-type: none;
 }
 
+.platos img:hover {
+    border: 3px solid red;
+}
+
+.bebidas img:hover {
+    border: 3px solid red;
+}
+
 .platos img {
     width: 275px;
     height: 175px;
     border-radius: 5px;
     border: 1px solid black;
+    transition: border 0.1s ease;
 }
 
 .bebidas img {
@@ -42,6 +51,7 @@ ul {
     height: 175px;
     border-radius: 5px;
     border: 1px solid black;
+    transition: border 0.1s ease;
 }
 
 .TextDiv {
